@@ -1,0 +1,148 @@
+{
+    "verbs": [
+      { "v": "EXITS",   "map": "EXITS" },
+      { "v": "QUIT",    "map": "QUIT"  },
+      { "v": "NORTH",   "map": "NORTH" },
+      { "v": "N",       "map": "NORTH" },
+      { "v": "SOUTH",   "map": "SOUTH" },
+      { "v": "S",       "map": "SOUTH" },
+      { "v": "EAST",    "map": "EAST"  },
+      { "v": "E",       "map": "EAST"  },
+      { "v": "WEST",    "map": "WEST"  },
+      { "v": "W",       "map": "WEST"  }
+    ],
+
+    "rooms": {
+      "Wright Quadrangle": {
+        "name": "Wright Quadrangle",
+        "desc": "You just had some delicious chicken tenders, but now you might be late for your class in Sycamore Hall!",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "SRSC Building",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Forest Quadrangle",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "Wells Library",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "Teter Quadrangle",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "SRSC Building": {
+        "name": "SRSC Building",
+        "desc": "There is a lot of equipment to help you get into shape, but you don't have time for that! You're gonna be late!",
+        "exits": [
+          {
+            "verb": "SOUTH",
+            "target": "Wright Quadrangle",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "Teter Quadrangle": {
+        "name": "Teter Quadrangle",
+        "desc": "Ooooh! 3D printers! Nevermind that, you have to get to class!",
+        "exits": [
+          {
+            "verb": "WEST",
+            "target": "Wright Quadrangle",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Willkie Quadrangle",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "Willkie Quadrangle": {
+        "name": "Willkie Quadrangle",
+        "desc": "Woah, this C-Store has tons of cool stuff!",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Teter Quadrangle",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "Forest Quadrangle",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "Forest Quadrangle": {
+        "name": "Forest Quadrangle",
+        "desc": "The yogurt at Bloomingberry is amazing, but your class is somehow more important.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Wright Quadrangle",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "Willkie Quadrangle",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "Sycamore Hall",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "Wells Library": {
+        "name": "Wells Library",
+        "desc": "These fries, oh my gosh, these fries. Just wow!",
+        "exits": [
+          {
+            "verb": "WEST",
+            "target": "Kelly School",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "Wright Quadrangle",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Sycamore Hall",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+    },
+    "Kelly School": {
+      "name": "Kelly School",
+      "desc": "Please, please, please don't be one of THOSE students. You should probably just turn around.",
+      "exits": [
+        {
+          "verb": "EAST",
+          "target": "Wells Library",
+          "condition": ""
+        }
+      ],
+      "inventory": ""
+    }
+  }
+}
+
+  
