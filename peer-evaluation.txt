@@ -1,0 +1,37 @@
+Name: James Maxwell
+Date: 9/28/2019
+Project: 03-Text-Adventure
+Peer's repository: https://github.com/lferneau/03-Text-adventure.git
+
+
+
+What is something you learned by reviewing your peer's project?
+How to get the text adventure to run in a game engine with an inventory
+ 
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+Having comedy in some of my projects
+ 
+
+What suggestions would you have for your peer to improve his/her code?
+Tell the player directional options for the different locations
+ 
+
+What could have been clearer or better commented?
+What the player can do in each area
+ 
+
+Was there anything in the code that was confusing to you? If so, what?
+Nothing was confusing
+ 
+
+Does the repository contain an appropriate LICENSE?
+Yes it does
+ 
+
+What is something he/she could add to the README.md to make it more descriptive?
+An explanation of where the game engine came from could be added
+ 
+
+Pay a compliment to your peer based on the quality of his/her code.
+I enjoy the setting choice for the text adventure
